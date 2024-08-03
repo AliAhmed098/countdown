@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('./WhatsApp\ Image\ 2024-08-03\ at\ 11.32.57\ AM.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.countdown-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.time {
+  font-size: 3rem;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
